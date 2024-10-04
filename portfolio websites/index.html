@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Websites</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/afdfcc374f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="headear-container">
+            <span>Akram Aici</span>
+            <i onclick="openmenu()" class="fa-solid fa-bars"></i>
+            <nav id="sidebar">
+                <i onclick="closemenue()" class="fa-solid fa-x"></i>
+                <ul>
+                    <li> <a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="profile">
+            <div class="container">
+                <div class="profile-container">
+                    <p>Hi! I'm Akram Aici</p>
+                    <h1>frontend web developer <br> based in Algeria.</h1>
+                    <span>I'm Akram, a beginner frontend developer passionate about creating responsive web applications. <br> I'm eager to keep learning and improving my skills in web development</span>
+                    <button id="btncv" type="button">Download CV</button>
+                    <button id="btncontact" type="button">
+                        <a href="#contacts" style="color: white;">Contact info</a>
+                    </button>
+                    
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-container">
+                    <span>Get To Know More</span>
+                    <h1>About Me</h1>
+                    <p>I'm Akram, a beginner in frontend development with a strong interest in building user-friendly websites. I have a basic understanding of HTML, CSS, and JavaScript, and I'm continuously working to enhance my skills. I'm passionate about web design and development and eager to contribute to exciting projects while learning from real-world experiences</p>   
+                </div>
+                <div class="row">
+                        <div class="col-3Container">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Languages</h3>
+                            <p>HTML,CSS <br>JAVASCRIPTS</p>
+                        </div>
+                        <div class="col-3Container">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <h3>Education</h3>
+                            <p>Licensce en informatique</p>
+                        </div>
+                        <div class="col-3Container">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                            <h3>Projects</h3>
+                            <p>Build more then 5 Projects</p>
+                        </div> 
+                </div>
+            </div>
+        </section>
+        <section id="experience" class="experience">
+            <div class="container">
+                <span>Explore My</span>
+                <h1>Experience</h1>
+                <div class="experience-container">
+                   <h2>Frontend Development</h2>
+                    <div class="skills">
+                        <img src="images/checkmark.png" >
+                        <div class="programming-languages">
+                            <p>HTML</p>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <img src="images/checkmark.png" >
+                        <div class="programming-languages">
+                            <p>CSS</p>
+                            <p>Intermediate</p>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <img src="images/checkmark.png" >
+                        <div class="programming-languages">
+                        <p>JAVASCRIPTS</p>
+                        <p>Basic</p>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+                <span>Browse My Recent</span>
+                <h1>Projects</h1>
+                <div class="row2">
+                    <div class="col-projects">
+                        <img src="images/meteo.png" alt="">
+                        <h2>Project One</h2>
+                        <button id="gitbtn" type="button" onclick="window.location.href='https://github.com/akramaici/Weather-App';">
+                            Github
+                        </button>                                           
+                        <button id="demobtn" type="button" onclick="window.location.href='https://akramaici.github.io/Weather-App/';">
+                            Live Demo
+                        </button> 
+                    </div>
+                    <div class="col-projects">
+                        <img src="images/formapp.png" alt="">
+                        <h2>Project Two</h2>
+                        <button id="gitbtn" type="button" onclick="window.location.href='https://github.com/akramaici/form-validation-app';">
+                            Github
+                        </button>  
+                        <button id="demobtn" type="button" onclick="window.location.href='https://akramaici.github.io/form-validation-app/';">
+                            Live Demo
+                        </button>  
+                    </div>
+                    <div class="col-projects">
+                        <img src="images/BMIAPP.png" alt="">
+                        <h2>Project Three</h2>
+                        <button id="gitbtn" type="button" onclick="window.location.href='https://github.com/akramaici/BMI-calculator-';">
+                            Github
+                        </button>  
+                        <button id="demobtn" type="button" onclick="window.location.href='https://akramaici.github.io/BMI-calculator-/';">
+                            Live Demo
+                        </button>  
+                    </div>   
+                </div> 
+        </section>
+        <section id="contacts" class="contacts">
+            <span>Get in Touch</span>
+            <h1>Contact Me</h1>
+            <div class="contacts-container">
+                <i class="fa-regular fa-envelope"></i>
+                <p>aiciakram18@gmail.com</p>
+            </div>
+        </section>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li> <a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>  
+        </footer>
+        <script src="scripts.js"></script>
+</body>
+</html>
